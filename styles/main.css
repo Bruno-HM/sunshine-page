@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Hammersmith+One&family=Jura:wght@300..700&display=swap');
+
 body {
     background-color: rgb(53, 53, 52);
+    font-family: "Poiret One";
+    font-weight: 400;
 }
 @media only screen and (max-device-width: 480px) {
 
@@ -40,9 +47,8 @@ body {
     #giant-logo {
         z-index: 3;
         height: 3rem;
-
-        
     }
+
 
     #main-container-box-1 {
         display: flex;
@@ -150,7 +156,31 @@ body {
     }
 
     #sign {
-        
         color: rgb(255,209,6);
     }
-}
+
+    #box-1-text > .titles {
+        color: rgb(255, 136, 0);
+        font-weight: 600;
+    }
+
+    #box-3-text > .titles {
+        color: rgb(255, 136, 0);
+        font-weight: 600;
+    }
+    
+    #box-1-text > p {
+        font-family: "Jura";
+        font-size: 15px;
+        font-weight: 900;
+    }
+    #box-2-text > p {
+        font-family: "Jura";
+        font-size: 15px;
+        font-weight: 900;
+    }
+    #box-3-text > p {
+        font-family: "Jura";
+        font-size: 15px;
+        font-weight: 900;
+    }
