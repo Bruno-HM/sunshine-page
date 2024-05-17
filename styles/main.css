@@ -95,7 +95,7 @@ body {
     }
     
     #box-2-image {
-        height: 5em;
+        height: 7em;
     }
 
     #main-container-box-3 {
@@ -118,7 +118,7 @@ body {
     }
     
     #box-3-image {
-        height: 5em;
+        height: 7em;
     }
 
     #back-button {
@@ -184,3 +184,4 @@ body {
         font-size: 15px;
         font-weight: 900;
     }
+}
