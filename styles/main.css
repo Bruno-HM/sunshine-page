@@ -216,5 +216,8 @@ body {
     #giant-title {
         font-size: 5rem;
     }
+    #back-button-image {
+        height: 1.5rem;
+    }
 
 }

@@ -1,8 +1,12 @@
 var menuButton = document.getElementById("menu-button");
 var menu = document.getElementById("menu");
 var backButton = document.getElementById("back-button");
+var header = document.getElementById("main-header")
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+    scrollFunction();
+    
+};
 
 menuButton.addEventListener("click", function() {
     if (menu.style.display === "block") {
@@ -26,6 +30,14 @@ function scrollFunction() {
    
 }
 
+function fixFunction() {
+    if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+        header.style.position = "fixed";
+    } else if (document.body.scrollTop < 90 || document.documentElement.scrollTop < 90){
+        header.style.position = "none";
+    }
+        
+}
 
 
 function toTop() {
