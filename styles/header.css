@@ -6,6 +6,7 @@
         -o-animation: fadeIn 0.4s ease-in-out;
         animation: fadeIn 0.4s ease-in-out;
         }
+
     #header {
         display: flex;
         justify-content: space-between;

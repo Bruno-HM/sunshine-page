@@ -33,8 +33,8 @@ function scrollFunction() {
 function fixFunction() {
     if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
         header.style.position = "fixed";
-    } else if (document.body.scrollTop < 90 || document.documentElement.scrollTop < 90){
-        header.style.position = "none";
+    } else {
+    
     }
         
 }
