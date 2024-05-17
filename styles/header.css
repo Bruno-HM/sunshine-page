@@ -21,15 +21,16 @@
         border-bottom-right-radius: 14px;
     }
 
-    #menu-items {
+    #menu-list {
         display: flex;
         gap: 24px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        
     }
-    .menu-items > ul > li > a {
+    #menu-items > ul > li > a {
         color: white;
         text-decoration: none;
         font-weight: bold;
