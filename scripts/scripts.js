@@ -2,6 +2,7 @@ var menuButton = document.getElementById("menu-button");
 var menu = document.getElementById("menu");
 var backButton = document.getElementById("back-button");
 
+
 window.onscroll = function() {scrollFunction()};
 
 menuButton.addEventListener("click", function() {
@@ -32,3 +33,4 @@ function toTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
