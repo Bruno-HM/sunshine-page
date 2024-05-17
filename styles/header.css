@@ -1,6 +1,11 @@
 @media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
-    
+    .fadeIn {
+        -webkit-animation: fadeIn 0.4s ease-in-out;
+        -moz-animation: fadeIn 0.4s ease-in-out;
+        -o-animation: fadeIn 0.4s ease-in-out;
+        animation: fadeIn 0.4s ease-in-out;
+        }
     #header {
         display: flex;
         justify-content: space-between;
