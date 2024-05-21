@@ -219,5 +219,9 @@ body {
     #back-button-image {
         height: 1.5rem;
     }
+    #giant-image {
+        content: url(/assets/reallybigimage.webp);
+        max-height: 42.5rem;
+    }
 
 }
